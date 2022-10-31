@@ -1,0 +1,32 @@
+body {
+
+    background-color: rgb(218, 216, 214);
+}
+
+.head {
+
+    color: blue;
+    font-weight: 100;
+    
+}
+
+.about {
+    color: red;
+}
+
+.ach {
+    color: black;
+}
+
+
+p {
+    color: black;
+}
+
+#contact-us {
+    color: blue;
+}
+
+#sub-cl {
+    color: brown;
+}
