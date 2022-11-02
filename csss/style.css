@@ -1,6 +1,7 @@
-body {
+.body {
 
-    background-color: rgb(218, 216, 214);
+    background-color: white;
+    
 }
 
 .head {
@@ -11,7 +12,7 @@ body {
 }
 
 .about {
-    color: red;
+    color: rgb(243, 241, 241);
 }
 
 .ach {
@@ -30,3 +31,45 @@ p {
 #sub-cl {
     color: brown;
 }
+
+img[src^="fullsd.jpg"] {
+
+    border: 10px solid black;
+}
+
+h3[class~=back-gnd] {
+
+    background: black;
+}
+
+.ribbon {
+    display: flex;
+    justify-content: end;
+    color: black;
+    padding: 5%   20px;
+}
+
+.link {
+    display:flex;
+    gap: 20px;
+    color: black;
+    font-family: sans-serif;
+    
+}
+
+a:link {
+    text-decoration: none;
+    
+    
+}
+a {
+    color: black;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    height: 30px;
+}
+
